@@ -66,12 +66,12 @@ body {
 
 /* Style the images inside the grid */
 .column img {
-    opacity: 0.8; 
     cursor: pointer; 
+    transition: all 1s;
 }
 
 .column img:hover {
-    opacity: 1;
+    transform: scale(1.1);
 }
 
 /* Clear floats after the columns */
@@ -111,8 +111,8 @@ body {
 <div class="wrapper">
     <div class="main">
         <div style="text-align:center">
-            <h2>Tabbed Image Gallery</h2>
-            <p>Click on the images below:</p>
+            <h2>Ваши фотографии</h2>
+            <p>Выберите фото для предпросмотра:</p>
           </div>
           
           <!-- The four columns -->
